@@ -10,3 +10,5 @@ class Tarea:
         return self.listo
     def terminar(self):
         self.listo = True
+    def modificar(self):
+        self.listo = False
